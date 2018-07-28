@@ -34,9 +34,11 @@ namespace ChromeWinFormApplicaiton
             container.SelectedTabIndex = 0;
 
 
+
             //create tab 
 
             TitleBarTabsApplicationContext applicaitonContext = new TitleBarTabsApplicationContext();
+
             applicaitonContext.Start(container);
 
             Application.Run(applicaitonContext);
